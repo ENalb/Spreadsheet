@@ -27,8 +27,8 @@ double Cell::toDouble()
 
 Date Cell::toDate(){
 	int year, month, day;
-    sscanf(m_value.c_str(), "%d/%d/%d", &year, &month, &day);
-    return Date(year, month, day);
+    	sscanf(m_value.c_str(), "%d/%d/%d", &year, &month, &day);
+    	return Date(year, month, day);
 }
 
 void Cell::reset(){
